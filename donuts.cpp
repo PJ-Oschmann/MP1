@@ -236,7 +236,7 @@ int main() {
         cout << fixed << showpoint;
         cout << setprecision(2);
         cout << "Change owed is " << paidAmount - total << " - " << changeOwedStr << "." << endl; //Print output, ending with a period.
-        //cout << "Change owed is " << dollar_string << quarter_string << dime_string << nickel_string << penny_string << endl;
+        //cout << "Change owed is $" << dollar_string << quarter_string << dime_string << nickel_string << penny_string << endl;
     }
 
     //Output if no change is owed.
